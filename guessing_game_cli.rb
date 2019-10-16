@@ -1,6 +1,6 @@
 def run_guessing_game
   comp_guess = rand(5)+1
-  user_guess = prompt_user
+  user_guess = prompt_user.
   puts comp_guess
   puts user_guess
   if user_guess == 'exit'
