@@ -1,4 +1,4 @@
-require "pry"
+require 'pry'
 
 def run_guessing_game
   comp_guess = rand(5)+1
