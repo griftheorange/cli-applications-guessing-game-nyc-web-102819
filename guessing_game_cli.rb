@@ -2,6 +2,10 @@ def run_guessing_game
   numb = rand(5)+1
   prompt_user
   if compare_user_to_comp(numb)
+    puts "You guessed the correct number!"
+  else
+    "Sorry! The computer guessed"
+  end
 end
 
 def prompt_user
@@ -10,5 +14,7 @@ def prompt_user
 end
 
 def compare_user_to_comp(user_guess)
-  user_guess == rand(5)+1
+  comp_guess = rand(5)+1 
+  user_guess == comp_guess
+  
 end
