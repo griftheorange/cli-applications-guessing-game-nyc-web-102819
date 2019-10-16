@@ -12,5 +12,5 @@ def run_guessing_game
 end
 
 def prompt_user
-  gets.chomp
+  gets
 end
