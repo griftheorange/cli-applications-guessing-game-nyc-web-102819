@@ -1,7 +1,7 @@
 def run_guessing_game
   numb = rand(5)+1
   prompt_user
-  
+  if compare_user_to_comp(numb)
 end
 
 def prompt_user
