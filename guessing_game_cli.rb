@@ -1,10 +1,7 @@
 def run_guessing_game
-  comp_guess = rand(5)+1
-  user_guess = prompt_user
-  puts user_guess == comp_guess
   if user_guess == 'exit'
     puts "Goodbye!"
-  elsif user_guess == comp_guess
+  elsif user_guess == rand(5)+2
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{comp_guess}."
